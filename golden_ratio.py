@@ -13,8 +13,7 @@ def circles(event):
     """
     input: Event Triggered When Enter Bar pressed
     
-    output: 
-    
+    output: takes input of a decimal and (starting from centre) draws points, turning that fraction of 360 degrees between each point
     
     """
     canvas.delete("all")
