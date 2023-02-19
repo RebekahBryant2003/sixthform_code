@@ -11,7 +11,7 @@ This code is designed to visualize and estimate decimals.
 
 def circles(event):
     """
-    input: 
+    input: Event Triggered When Enter Bar pressed
     
     output: 
     
@@ -24,7 +24,9 @@ def circles(event):
     nextY = 25
     num = int(e.get())
     # fraction = float(frac.get())
+    #Retrieves the fraction inputted
     fraction = (1 + 5 ** (1 / 2)) / 2
+    #Puts the golden ratio as the fraction
     angle = fraction * 360
     Angle = angle - 90
     radian = math.radians(angle)
@@ -43,9 +45,9 @@ def circles(event):
 
 def loop(nextX:int=None, nextY:int=None): #do type hinting. 
     """
-    input: 
+    input: X and Y coordinates
 
-    output:
+    output: Places oval at X and Y coordinate
 
     """
     canvas.create_oval(
