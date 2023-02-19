@@ -1,4 +1,4 @@
-Kai Lawson-McDowall
+
 import math
 from tkinter import *
 import time
